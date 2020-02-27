@@ -1,0 +1,21 @@
+<div class="card my-5 mb-3">
+    <div class="card-body">
+        <h3 class="card-title">Usuarios</h3>
+        <div class="card-text">
+            <div class="table-resposive">
+                <table class="table table-hover">
+                    <thead>
+                        <th>Nombre de usuario</th>
+                        <th>Rol</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let user of users">
+                            <td>{{user.username}}</td>
+                            <td>{{user.roleDescription}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
