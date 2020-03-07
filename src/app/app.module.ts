@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { UsersComponent } from './users/users.component';
 import { RolesComponent } from './roles/roles.component';
 import { CreateUserComponent } from './create-user/create-user.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
     RolesComponent,
-    CreateUserComponent
+    CreateUserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
